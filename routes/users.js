@@ -50,8 +50,8 @@ var options = {
 
     // Optional depending on the providers
     httpAdapter: 'https', // Default
-    //apiKey: 'AIzaSyDZUnCBT3s7MpJfWzCvaroxBkTtTCOCfm8', //nodejs
-    apiKey: 'AIzaSyC3GeD4RNlL7uIAfEqzI6DcjdRPKDnvq6A', //live
+    //apiKey: '', //nodejs
+    apiKey: '', //live
     formatter: null         // 'gpx', 'string', ...
 };
 var geocoder = NodeGeocoder(options);
